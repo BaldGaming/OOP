@@ -1,3 +1,4 @@
+package Week_1;
 public class MainForClass3 {
 	public static void main(String[] arg) {
 		Class3 a = new Class3(3, 5);

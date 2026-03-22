@@ -1,3 +1,4 @@
+package Week_1;
 // public class MainForStudent {
 // 	public static void main(String[] args) {
 // 		Student s = new Student("Alfonso", 101);

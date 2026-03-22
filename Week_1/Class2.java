@@ -1,3 +1,4 @@
+package Week_1;
 public class Class2 {
 	public int x, y;
 	
