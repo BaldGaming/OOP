@@ -1,4 +1,4 @@
-package Week_1;
+package Week_1.Presentation;
 public class MainForClass1 {
 	public static void main(String[] arg) {
 		Class1 c = new Class1();

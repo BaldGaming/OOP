@@ -1,4 +1,4 @@
-package Week_1;
+package Week_1.Presentation;
 // public class MainForStudent {
 // 	public static void main(String[] args) {
 // 		Student s = new Student("Alfonso", 101);

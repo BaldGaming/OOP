@@ -1,4 +1,4 @@
-package Week_1;
+package Week_1.Presentation;
 public class MainForVector {
 	public static void main(String[] args) {
 		Vector v1 = new Vector(0.2, 1);

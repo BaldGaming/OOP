@@ -1,4 +1,4 @@
-package Week_1;
+package Week_1.Presentation;
 public class Class3 {
 	public int x, y;
 	
