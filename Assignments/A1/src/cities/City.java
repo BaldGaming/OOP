@@ -18,14 +18,26 @@ public class City {
         }
     }
 
-    public City nearestCity(){
-        Road nearest = roads[0];
+    public City nearestCity() {
+    if (numRoads == 0) // No roadss
+        return null;
 
-        if ()
-            
+    // Assume the first road is the shortest
+    Road shortestRoad = roads[0];
 
-        else
-            return null;
+    // Find the shortest
+    for (int i = 1; i < numRoads; i++) {
+        if (roads[i].getLength() < shortestRoad.getLength()) {
+            shortestRoad = roads[i];
+        }
+    }
+
+    // Return the "not" 'this.'
+    if (shortestRoad.getCity1() == this)
+        return shortestRoad.getCity2();
+
+    else
+        return shortestRoad.getCity1();
     }
 
     public String toString() {
