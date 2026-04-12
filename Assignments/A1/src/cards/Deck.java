@@ -25,11 +25,10 @@ public class Deck {
         int i;
 
         for (i = 0; i < cardsToTake; i++) {
-            stack[size] = from.stack[from.size - 1]; // Draw from the end
+            stack[size] = from.takeOne(); // Draw from the end
 
             // Update the counts
             this.size++;
-            from.size--;
         }
     }
 
@@ -39,15 +38,13 @@ public class Deck {
 
         while (first.size > 0 || second.size > 0) {
             if (first.size > 0) {
-                stack[size] = first.stack[first.size - 1];
+                stack[size] = first.takeOne();
                 size++;
-                first.size--;
             }
 
             if (second.size > 0) {
-                stack[size] = second.stack[second.size - 1];
+                stack[size] = second.takeOne();
                 size++;
-                second.size--;
             }
         }
     }
