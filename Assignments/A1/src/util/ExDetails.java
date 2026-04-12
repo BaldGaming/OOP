@@ -72,8 +72,6 @@ public class ExDetails {
 
 	// Put the second student details here
 	public static ExDetails secondStudent() {
-		return new ExDetails("342744869", "Dmitry", "Chybisov", "Dmitry.Chybisov@e.braude.ac.il");
-		// if there is only one student, then erase the above line, and do:
-		// return null;
+		return null;
 	}
 }
