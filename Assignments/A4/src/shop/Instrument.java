@@ -1,3 +1,5 @@
+package shop;
+
 public abstract class Instrument {
 
     private static int counter = 0;
