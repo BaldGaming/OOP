@@ -16,6 +16,16 @@ public class Gradient extends BaseImage {
         double progress = (double) x / width;
         double alpha = 1.0 - progress;
 
-        return RGB.mix(x, y, alpha);
+        return RGB.mix(start, end, alpha);
+    }
+
+    @Override
+    public int getWidth() {
+        return width;
+    }
+
+    @Override
+    public int getHeight() {
+        return height;
     }
 }
