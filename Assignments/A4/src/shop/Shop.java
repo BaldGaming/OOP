@@ -6,7 +6,6 @@ import java.util.List;
 public class Shop {
 
     private ArrayList<Instrument> list = new ArrayList<Instrument>();
-    private int counter = 0;
 
     public void add(Instrument i) {
         list.add(i);
