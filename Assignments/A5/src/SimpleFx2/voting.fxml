@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SimpleFx2.VotingController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <HBox alignment="CENTER" spacing="15.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#ofraVote" text="Ofra Haza" />
+            <Button mnemonicParsing="false" onAction="#yardenaVote" text="Yardena Arazi" />
+         </children>
+      </HBox>
+      <Label fx:id="countLabel" maxWidth="1.7976931348623157E308" style="-fx-background-color: red; -fx-text-fill: black; -fx-alignment: center; -fx-font-weight: bold; -fx-padding: 15px;" text="0" />
+   </children>
+</VBox>

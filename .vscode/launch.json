@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "VotingApp",
+            "request": "launch",
+            "mainClass": "SimpleFx2.VotingApp",
+            "projectName": "OOP_f8742acd"
+        },
+        {
+            "type": "java",
+            "name": "Voting",
+            "request": "launch",
+            "mainClass": "simpleFX.Voting",
+            "projectName": "OOP_f8742acd"
+        },
+        {
+            "type": "java",
+            "name": "IteratorTester",
+            "request": "launch",
+            "mainClass": "iterator.IteratorTester",
+            "projectName": "OOP_f8742acd"
+        },
+        {
+            "type": "java",
+            "name": "HelloFX",
+            "request": "launch",
+            "mainClass": "HelloFX",
+            "projectName": "OOP_f8742acd"
+        },
+        {
+            "type": "java",
+            "name": "Run JavaFX App",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-26.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

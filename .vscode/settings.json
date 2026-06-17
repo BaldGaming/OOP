@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
         "שכפול"
-    ]
+    ],
+    "java.jdt.ls.java.home": "C:\\Program Files\\Java\\oracleJdk-26",
+    "jdk.jdkhome": "C:\\Program Files\\Java\\oracleJdk-26",
+    "java.project.referencedLibraries": [
+        "C:\\Program Files\\Java\\javafx-sdk-26.0.1\\lib\\*.jar"
+    ],
+    "java.debug.settings.vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-26.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
 }
