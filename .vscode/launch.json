@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinesFX",
+            "request": "launch",
+            "mainClass": "mines.MinesFX",
+            "projectName": "OOP_f8742acd"
+        },
+        {
+            "type": "java",
+            "name": "MinesTester",
+            "request": "launch",
+            "mainClass": "mines.MinesTester",
+            "projectName": "OOP_f8742acd"
+        },
+        {
+            "type": "java",
             "name": "VotingApp",
             "request": "launch",
             "mainClass": "SimpleFx2.VotingApp",
